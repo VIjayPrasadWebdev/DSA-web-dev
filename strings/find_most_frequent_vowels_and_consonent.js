@@ -29,3 +29,5 @@ function Test(s) {
 }
 let s = "successes";
 console.log(Test(s));
+
+let arr = [1, 2, 3];
