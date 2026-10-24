@@ -10,6 +10,7 @@ function Test(arr) {
     while (stack.length) {
       let top = stack[stack.length - 1];
       if (arr[i] >= arr[top]) {
+        // >= for corner case what if the numbers are repeating
         stack.pop();
       } else {
         futuretempddays[i] = top - i;
