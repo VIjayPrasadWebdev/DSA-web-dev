@@ -9,7 +9,7 @@ function Test(arr) {
   for (let i = arr.length - 2; i >= 0; i--) {
     while (stack.length) {
       let top = stack[stack.length - 1];
-      if (arr[i] > arr[top]) {
+      if (arr[i] >= arr[top]) {
         stack.pop();
       } else {
         futuretempddays[i] = top - i;
