@@ -23,8 +23,6 @@ function Test(arr) {
     } else {
       left = mid + 1;
     }
-    {
-    }
   }
 }
 let nums = [4, 5, 6, 7, 0, 1, 2];
